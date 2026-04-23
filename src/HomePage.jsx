@@ -100,8 +100,8 @@ export default function HomePage() {
     { name: "Eng. Ibrahim", role: "Co-Founder", img: "/team/ibrahim.jpg" },
     { name: "Dr. Heba Sultan", role: "General Manager", img: "/team/heba.jpg" },
     { name: "Eng. Mai Ashraf", role: "Tech Director", img: "/team/mai.jpg" },
-    { name: "Dr. Norhan Khaled", role: "US Branch Manager", img: "/team/norhan.jpg" },
-    { name: "Mrs. Samar Mansour", role: "UK Manager", img: "/team/samar.jpg" },
+    { name: "Dr. Norhan Khaled", role: "American Manager", img: "/team/norhan.jpg" },
+    { name: "Mrs. Samar Mansour", role: "British Manager", img: "/team/samar.jpg" },
   ];
 
   return (
@@ -180,7 +180,7 @@ export default function HomePage() {
 
         <div className="max-w-6xl mx-auto">
 
-          <h2 className="text-4xl font-semibold mb-12">Case Studies</h2>
+          <h2 className="text-4xl font-semibold mb-12">Achievements</h2>
 
           <div className="space-y-12">
 
