@@ -22,8 +22,9 @@ export default function Achievements() {
   const accreditations = [
     "/accreditations/pearson.jpg",
     "/accreditations/british-council.jpg",
-    "/accreditations/cambridge.png",
-    "/accreditations/srem.png",
+        "/accreditations/cognia.png",
+        "/accreditations/cambridge.png",
+    "/accreditations/stem.png",
   ];
 
   return (
@@ -139,7 +140,7 @@ export default function Achievements() {
 
               <div className="h-[260px] flex items-center justify-center mb-8">
                 <img
-                  src="/schools/westcliff.png"
+                  src="/schools/west_cliff.jfif" 
                   className="h-[200px] object-contain transition duration-500 hover:scale-110"
                 />
               </div>
@@ -160,8 +161,7 @@ export default function Achievements() {
 
       </section>
 
-      <Footer />
-
+     
     </div>
   );
 }

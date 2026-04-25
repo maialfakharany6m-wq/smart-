@@ -8,7 +8,7 @@ export default function Contact() {
 
         <div className="p-8 border rounded-xl">
           <p>Email: info@smartsmileway.com</p>
-          <p>Phone: +20 XXX XXX XXXX</p>
+          <p>Phone: +20 155 920 2015</p>
           <p>Cairo, Egypt</p>
         </div>
 
