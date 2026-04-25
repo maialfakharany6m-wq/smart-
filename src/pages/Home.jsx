@@ -54,7 +54,7 @@ function Hero() {
           />
 
           <motion.img
-            src="/public/logo.png"
+            src="/logo.png"
             animate={{ y: [0, -12, 0] }}
             transition={{ duration: 6, repeat: Infinity }}
             className="relative w-[420px] md:w-[500px] object-contain z-10"
