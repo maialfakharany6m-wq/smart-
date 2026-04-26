@@ -36,7 +36,7 @@ export default function Footer() {
           </h3>
 
           <div className="space-y-3 text-white/60 text-sm">
-            {["home", "vision", "capability", "achievements", "leadership", "contact"].map((item) => (
+            {["home", "About",  "Achievements", "leadership", "contact"].map((item) => (
               <p
                 key={item}
                 className="hover:text-white hover:translate-x-1 transition duration-300 cursor-pointer"
@@ -60,20 +60,36 @@ export default function Footer() {
           <div className="flex gap-5">
 
             {/* LinkedIn */}
-            <a href="linkedin.com/company/smart-smile-way" target="_blank" className="group">
-              <svg className="w-6 h-6 text-white/70 group-hover:text-blue-400 group-hover:scale-110 transition"
-                fill="currentColor" viewBox="0 0 24 24">
-                <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0H12v2.2h.1c.6-1.1 2.1-2.2 4.3-2.2 4.6 0 5.5 3 5.5 6.9V24h-5v-7.5c0-1.8 0-4.2-2.6-4.2s-3 2-3 4.1V24h-5V8z"/>
-              </svg>
-            </a>
+<a
+  href="https://linkedin.com/company/smart-smile-way"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group"
+>
+  <svg
+    className="w-6 h-6 text-white/70 group-hover:text-blue-400 group-hover:scale-110 transition"
+    fill="currentColor"
+    viewBox="0 0 24 24"
+  >
+    <path d="M19 0h-14C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM7 19H4V9h3v10zM5.5 7.5C4.67 7.5 4 6.83 4 6s.67-1.5 1.5-1.5S7 5.17 7 6s-.67 1.5-1.5 1.5zM20 19h-3v-5.5c0-1.38-.02-3.16-1.93-3.16-1.93 0-2.23 1.51-2.23 3.06V19h-3V9h2.88v1.37h.04c.4-.75 1.37-1.54 2.83-1.54 3.03 0 3.59 1.99 3.59 4.58V19z"/>
+  </svg>
+</a>
 
-            {/* Instagram */}
-            <a href="https://instagram.com" target="_blank" className="group">
-              <svg className="w-6 h-6 text-white/70 group-hover:text-pink-400 group-hover:scale-110 transition"
-                fill="currentColor" viewBox="0 0 24 24">
-                <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2a1 1 0 110 2 1 1 0 010-2zm-5 3a5 5 0 110 10 5 5 0 010-10z"/>
-              </svg>
-            </a>
+{/* Instagram */}
+<a
+  href="https://www.instagram.com/smartsmile.way/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group"
+>
+  <svg
+    className="w-6 h-6 text-white/70 group-hover:text-pink-400 group-hover:scale-110 transition"
+    fill="currentColor"
+    viewBox="0 0 24 24"
+  >
+    <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm5 3a5 5 0 110 10 5 5 0 010-10zm6.5-.75a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0z"/>
+  </svg>
+</a>
 
             {/* Facebook */}
             <a href="https://www.facebook.com/profile.php?id=61560986729345" target="_blank" className="group">
